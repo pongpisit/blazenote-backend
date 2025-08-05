@@ -13,6 +13,7 @@ const app = new Hono();
 const allowedOrigins = new Set([
   "http://localhost:5173",
   "https://blazenote-frontend.pongpisit.com",
+  "https://blazenote-backend.pongpisit.com"
 ]);
 
 // https://hono.dev/docs/middleware/builtin/cors
