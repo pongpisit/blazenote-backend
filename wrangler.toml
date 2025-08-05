@@ -19,3 +19,6 @@ compatibility_flags = [ "nodejs_compat" ]
 
 [observability.logs]
 enabled = true
+
+[[routes]]
+pattern = "blazenote-backend.pongpisit.com"
